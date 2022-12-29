@@ -203,13 +203,13 @@ html {
 body {
   min-height: 100vh;
   /* 1 */
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", "HelveticaNeue", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
   /* 1 */
   background-color: #fff;
-  color: #131313; }
+  color: #333; }
 
 /*------------------------------------*\
     #LINKS

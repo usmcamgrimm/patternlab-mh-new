@@ -1,35 +1,35 @@
 {
   "items": [
     {
-      "name": "$font-size-sm",
-      "value": "0.75rem",
+      "name": "h1",
+      "value": "2.5rem",
       "comment": ""
     },
     {
-      "name": "$font-size-sm-2",
-      "value": "0.85rem",
-      "comment": ""
-    },
-    {
-      "name": "$font-size-med",
-      "value": "1rem",
-      "comment": ""
-    },
-    {
-      "name": "$font-size-med-2",
-      "value": "1.2rem",
-      "comment": ""
-    },
-    {
-      "name": "$font-size-large",
+      "name": "h2",
       "value": "2rem",
       "comment": ""
     },
     {
-      "name": "$font-size-xl",
-      "value": "3rem",
+      "name": "h3",
+      "value": "1.75rem",
       "comment": ""
-    }
+    },
+    {
+      "name": "h4",
+      "value": "1.5rem",
+      "comment": ""
+    },
+    {
+      "name": "h5",
+      "value": "1.25rem",
+      "comment": ""
+    },
+    {
+      "name": "base",
+      "value": "1rem",
+      "comment": ""
+    } 
   ],
   "meta": {
     "description": "To add to these items, use Sass variables that start with <code>$font-size-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
