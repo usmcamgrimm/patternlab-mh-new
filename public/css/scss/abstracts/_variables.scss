@@ -48,14 +48,9 @@ $color-brand-blue: #0000ff;
  * 1) Neutral colors are grayscale values used throughout the UI
  */
 $color-neutral-white: #fff;
-$color-neutral-gray-02: #f9f9f9;
-$color-neutral-gray-07: #eee;
-$color-neutral-gray-13: #ddd;
-$color-neutral-gray-27: #bbb;
-$color-neutral-gray-50: #808080;
-$color-neutral-gray-60: #666;
-$color-neutral-gray-73: #444;
-$color-neutral-gray-93: #131313;
+$color-light-gray: #eee;
+$color-medium-gray: #bbb;
+$color-dark-gray: #666;
 $color-neutral-black: #000;
 
 /**
@@ -63,10 +58,10 @@ $color-neutral-black: #000;
  * 1) Utility colors are colors used to provide feedback, such as alert messages,
  *    form validation, etc.
  */
-$color-utility-info: #0192d0;
-$color-utility-error: #b12a0b;
-$color-utility-success: #03804d;
-$color-utility-warning: #a59b15;
+$color-utility-info: #00a9e0;
+$color-utility-danger: #e7045c;
+$color-utility-success: #7ab800;
+$color-utility-warning: #fc9e0e;
 
 /*------------------------------------*\
     #TYPOGRAPHY
@@ -75,18 +70,18 @@ $color-utility-warning: #a59b15;
 /**
  * Font Family
  */
-$font-family-primary: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-$font-family-secondary: serif;
+$font-family-primary: "Open Sans", "HelveticaNeue", "Arial", sans-serif;
+$font-family-secondary: "Roboto Condensed";
 
 /**
  * Font Sizing
  */
-$font-size-sm: 0.75rem;
-$font-size-sm-2: 0.85rem;
-$font-size-med: 1rem;
-$font-size-med-2: 1.2rem;
+$font-size-base: 1rem;
+$font-size-sm: 1.25rem;
+$font-size-med: 1.5rem;
+$font-size-med-2: 1.75rem;
 $font-size-large: 2rem;
-$font-size-xl: 3rem;
+$font-size-xl: 2.5rem;
 
 /**
  * Line Height
