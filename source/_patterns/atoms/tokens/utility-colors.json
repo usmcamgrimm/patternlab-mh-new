@@ -1,23 +1,24 @@
+
 {
   "items": [
     {
-      "name": "$color-utility-info",
-      "value": "#0192d0",
+      "name": "$info",
+      "value": "#00a9e0",
       "comment": ""
     },
     {
-      "name": "$color-utility-error",
-      "value": "#b12a0b",
+      "name": "$success",
+      "value": "#7ab800",
       "comment": ""
     },
     {
-      "name": "$color-utility-success",
-      "value": "#03804d",
+      "name": "$warning",
+      "value": "#ffc107",
       "comment": ""
     },
     {
-      "name": "$color-utility-warning",
-      "value": "#a59b15",
+      "name": "$danger",
+      "value": "#e7045c",
       "comment": ""
     }
   ],

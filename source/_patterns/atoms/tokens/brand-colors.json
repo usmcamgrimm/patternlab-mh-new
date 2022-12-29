@@ -1,8 +1,28 @@
 {
   "items": [
     {
-      "name": "$color-brand-blue",
-      "value": "#0000ff",
+      "name": "$primary",
+      "value": "#b1005d",
+      "comment": ""
+    },
+    {
+      "name": "$blue",
+      "value": "#00a9e0",
+      "comment": ""
+    },
+    {
+      "name": "$purple",
+      "value": "#6e267b",
+      "comment": ""
+    },
+    {
+      "name": "$orange",
+      "value": "#ed8f0e",
+      "comment": ""
+    },
+    {
+      "name": "$gray-dark",
+      "value": "#333333",
       "comment": ""
     }
   ],
