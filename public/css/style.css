@@ -218,16 +218,16 @@ body {
  * Link base styles
  */
 a {
-  color: #444;
+  color: #333;
   text-decoration: none;
   outline: 0;
   transition: color 0.15s ease-out; }
   a:hover, a:focus {
-    color: #808080; }
+    color: #b1005d; }
   a:active {
-    color: #131313; }
+    color: #b1005d; }
   a:visited {
-    color: #131313; }
+    color: #333; }
 
 /*------------------------------------*\
     #LISTS
@@ -237,9 +237,15 @@ a {
  */
 /**
   * Remove list styles from unordered and ordered lists
-  */
-ol, ul {
-  list-style: none; }
+*/
+ol {
+  padding-left: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
 
 /*------------------------------------*\
     #HEADINGS
