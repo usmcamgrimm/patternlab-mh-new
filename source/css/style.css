@@ -427,6 +427,12 @@ img {
   max-width: 100%;
   height: auto; }
 
+/* Set background for reverse-logo */
+.reverse-logo {
+  background: #333;
+  padding: 6px;
+}
+
 /*------------------------------------*\
     #TEXT
 \*------------------------------------*/
