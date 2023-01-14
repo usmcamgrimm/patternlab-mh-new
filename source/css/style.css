@@ -403,8 +403,51 @@ select {
  * Button and submit inputs reset
  * 1) These should be styled using c-btn
  */
-button {
-  cursor: pointer; }
+.btn-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.btn, button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 22px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.btn:hover, button:hover {
+  filter: brightness(85%);
+}
+.btn-primary {
+  background: #b1005d;
+}
+.btn-info {
+  background: #00a9e0;
+}
+.btn-success {
+  background: #7ab800;
+}
+.btn-warning {
+  background: #fc9e0e;
+}
+.btn-danger {
+  background: #e7045c;
+}
+@media screen and (max-width: 500px) {
+  .btn-row {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 50%;
+  }
+  .btn, button {
+    margin-bottom: 12px;
+  }
+  .btn:last-child, button:last-child {
+    margin-bottom: 0;
+  }
+}
 
 /*------------------------------------*\
     #MAIN ELEMENT

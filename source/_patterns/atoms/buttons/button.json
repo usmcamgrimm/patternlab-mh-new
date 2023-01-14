@@ -1,0 +1,5 @@
+{
+  "meta": {
+    "description": "Basic button styling. Add a .btn class to make the button and style with an additional class name such as .btn-primary, .btn-info, etc."
+  }
+}
